@@ -1,0 +1,7 @@
+//Items
+item.enhanced_coal.name=Enhanced Coal
+item.coal_dust.name=Coal Dust
+
+//Blocks
+tile.enhanced_coal_block.name=Block of Enhanced Coal
+tile.enhanced_coal_ore.name=Enhanced Coal ore
