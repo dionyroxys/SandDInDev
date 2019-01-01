@@ -13,7 +13,7 @@ import net.minecraft.item.ItemBlock;
 
 public class BlockBase extends Block implements IHasModel
 {
-	public BlockBase(String name, Material material) 
+	public BlockBase(String name, Material material, CreativeTabs tab) 
 	{
 		super(material);
 		setUnlocalizedName(name);
