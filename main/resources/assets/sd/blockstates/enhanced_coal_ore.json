@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "sd:enhanced_coal_ore" }
+    }
+}

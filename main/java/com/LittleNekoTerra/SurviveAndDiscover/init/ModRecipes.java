@@ -1,4 +1,4 @@
-//package com.LittleNekoTerra.MinecraftOverhaul.init;
+//package com.LittleNekoTerra.SurviveAndDestroy.init;
 
 //import net.minecraft.init.Items;
 //import net.minecraft.item.Item;

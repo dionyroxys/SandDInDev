@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "EEE",
+        "EEE",
+        "EEE"
+    ],
+    
+    "key":
+    {
+        "E":
+        {
+            "item": "sd:enhanced_coal"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mo:enhanced_coal_block",
+        "count": 1
+    }
+}

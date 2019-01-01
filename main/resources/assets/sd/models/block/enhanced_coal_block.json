@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "sd:blocks/enhanced_coal_block"
+   }
+}

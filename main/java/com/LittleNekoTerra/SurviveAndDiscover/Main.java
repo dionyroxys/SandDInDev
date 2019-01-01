@@ -2,9 +2,14 @@ package com.LittleNekoTerra.SurviveAndDiscover;
 
 //import com.LittleNekoTerra.MinecraftOverhaul.init.ModRecipes;
 import com.LittleNekoTerra.SurviveAndDiscover.proxy.CommonProxy;
+import com.LittleNekoTerra.SurviveAndDiscover.proxy.tabs.SDBlocksTab;
+import com.LittleNekoTerra.SurviveAndDiscover.proxy.tabs.SDItemsTab;
+import com.LittleNekoTerra.SurviveAndDiscover.proxy.tabs.SDNatureTab;
+import com.LittleNekoTerra.SurviveAndDiscover.proxy.tabs.SDToolsTab;
 import com.LittleNekoTerra.SurviveAndDiscover.util.Reference;
 import com.LittleNekoTerra.SurviveAndDiscover.world.ModWorldGen;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -17,6 +22,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class Main {
 	
+	public static final CreativeTabs sdblockstab = new SDBlocksTab("sdblockstab");
+	public static final CreativeTabs sditemstab = new SDItemsTab("sditemstab");
+	public static final CreativeTabs sdnaturetab = new SDNatureTab("sdnaturetab");
+	public static final CreativeTabs sdtoolstab = new SDToolsTab("sdtoolstab");
 	@Instance
 	public static Main instance;
 	
