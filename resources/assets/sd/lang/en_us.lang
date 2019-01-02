@@ -1,0 +1,15 @@
+//Items
+item.enhanced_coal.name=Enhanced Coal
+item.coal_dust.name=Coal Dust
+item.mushroom_steel.name=Mushroom Steel
+
+//Blocks
+tile.enhanced_coal_block.name=Block of Enhanced Coal
+tile.enhanced_coal_ore.name=Enhanced Coal ore
+
+//tabs
+
+itemGroup.sdblockstab=Survive and Discover Blocks
+itemGroup.sditemstab=Survive and Discover Items
+itemGroup.sdnaturetab=Survive and Discover Nature
+itemGroup.sdtoolstab=Survive and Discover Tools
