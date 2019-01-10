@@ -1,0 +1,79 @@
+{
+    "entity.shroomalvillager.idle1":
+    {
+        "category": "entity",
+        "subtitle": "entity.shroomalvillager.idle1",
+        "sounds": [{"name": "sd:entity/shroomalvillager/idle1", "stream": true}]
+    },
+    
+    "entity.shroomalvillager.idle2":
+    {
+        "category": "entity",
+        "subtitle": "entity.shroomalvillager.idle2",
+        "sounds": [{"name": "sd:entity/shroomalvillager/idle2", "stream": true}]
+    },
+    
+    "entity.shroomalvillager.idle3":
+    {
+        "category": "entity",
+        "subtitle": "entity.shroomalvillager.idle3",
+        "sounds": [{"name": "sd:entity/shroomalvillager/idle3", "stream": true}]
+    },
+    
+    "entity.shroomalvillager.idle4":
+    {
+        "category": "entity",
+        "subtitle": "entity.shroomalvillager.idle4",
+        "sounds": [{"name": "sd:entity/shroomalvillager/idle4", "stream": true}]
+    },
+    
+    "entity.shroomalvillager.idle5":
+    {
+        "category": "entity",
+        "subtitle": "entity.shroomalvillager.idle5",
+        "sounds": [{"name": "sd:entity/shroomalvillager/idle5", "stream": true}]
+    },
+    
+    "entity.shroomalvillager.Hit1":
+    {
+        "category": "entity",
+        "subtitle": "entity.shroomalvillager.Hit1",
+        "sounds": [{"name": "sd:entity/shroomalvillager/Hit1", "stream": true}]
+    },
+    
+    "entity.shroomalvillager.Hit2":
+    {
+        "category": "entity",
+        "subtitle": "entity.shroomalvillager.Hit2",
+        "sounds": [{"name": "sd:entity/shroomalvillager/Hit2", "stream": true}]
+    },
+    
+     "entity.shroomalvillager.Hit3":
+    {
+        "category": "entity",
+        "subtitle": "entity.shroomalvillager.Hit3",
+        "sounds": [{"name": "sd:entity/shroomalvillager/Hit3", "stream": true}]
+    },
+    
+     "entity.shroomalvillager.Death1":
+    {
+        "category": "entity",
+        "subtitle": "entity.shroomalvillager.Death1",
+        "sounds": [{"name": "sd:entity/shroomalvillager/Death1", "stream": true}]
+    },
+    
+     "entity.shroomalvillager.Death2":
+    {
+        "category": "entity",
+        "subtitle": "entity.shroomalvillager.Death2",
+        "sounds": [{"name": "sd:entity/shroomalvillager/Death2", "stream": true}]
+    },
+    
+     "entity.shroomalvillager.Death3":
+    {
+        "category": "entity",
+        "subtitle": "entity.shroomalvillager.Death3",
+        "sounds": [{"name": "sd:entity/shroomalvillager/Death3", "stream": true}]
+    }
+   
+}

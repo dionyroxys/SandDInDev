@@ -2,14 +2,24 @@
 item.enhanced_coal.name=Enhanced Coal
 item.coal_dust.name=Coal Dust
 item.mushroom_steel.name=Mushroom Steel
+item.steel.name=Steel
+item.fungal_core.name=Fungal Core
+
+
+//container
+container.enhanced_furnace=Enhanced Furnace
 
 //Blocks
 tile.enhanced_coal_block.name=Block of Enhanced Coal
 tile.enhanced_coal_ore.name=Enhanced Coal ore
 
 //tabs
-
 itemGroup.sdblockstab=Survive and Discover Blocks
 itemGroup.sditemstab=Survive and Discover Items
 itemGroup.sdnaturetab=Survive and Discover Nature
 itemGroup.sdtoolstab=Survive and Discover Tools
+itemGroup.sdmachinestab=Survive and Discover Machines
+
+
+//entities
+entity.shroomalvillager.name=Shroomal Villager
