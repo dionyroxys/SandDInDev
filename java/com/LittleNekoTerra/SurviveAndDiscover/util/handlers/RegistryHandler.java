@@ -1,5 +1,6 @@
  package com.LittleNekoTerra.SurviveAndDiscover.util.handlers;
 
+import com.LittleNekoTerra.SurviveAndDiscover.Main;
 import com.LittleNekoTerra.SurviveAndDiscover.init.EntityInit;
 import com.LittleNekoTerra.SurviveAndDiscover.init.ModBlocks;
 import com.LittleNekoTerra.SurviveAndDiscover.init.ModItems;
@@ -12,6 +13,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler 
@@ -26,6 +28,7 @@ public class RegistryHandler
 	public static void onBlockRegister(RegistryEvent.Register<Block> event) 
 	{
 		event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
+		TileEntityHandler.registerTileEntities();
 	}
 	
 	@SubscribeEvent
@@ -58,6 +61,7 @@ public class RegistryHandler
 	{
 		OreDictionaryCompat.registerOres();
 		SoundsHandler.registerSounds();
+		NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, new GuiHandler());
 	}
 
 	

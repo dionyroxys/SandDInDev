@@ -43,6 +43,7 @@ public class block_enhanced_furnace extends BlockBase implements ITileEntityProv
 		super(name, Material.IRON, tab);
 		setSoundType(SoundType.METAL);
 		setHardness(4.0F);
+		setCreativeTab(Main.sdmachinestab);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH).withProperty(BURNING, false));
 	}
 	

@@ -27,13 +27,14 @@ public class Main {
 	public static final CreativeTabs sditemstab = new SDItemsTab("sditemstab");
 	public static final CreativeTabs sdnaturetab = new SDNatureTab("sdnaturetab");
 	public static final CreativeTabs sdtoolstab = new SDToolsTab("sdtoolstab");
-	public static final CreativeTabs sdmachinestab = new SDToolsTab("sdmachinestab");
+	public static final CreativeTabs sdmachinestab = new SDToolsTab("sdmachinetab");
 	
 	@Instance
 	public static Main instance;
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
+	
 	
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
